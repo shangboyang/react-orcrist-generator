@@ -1,0 +1,38 @@
+{
+  "name": "react-orcrist-generator",
+  "version": "0.0.5",
+  "description": "simple CLI for scaffolding React projects",
+  "main": "",
+  "preferGlobal": true,
+  "bin": {
+    "react-orcrist": "bin/react-orcrist-cli.js"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "balanced-match": "^1.0.0",
+    "commander": "^2.11.0",
+    "fs.realpath": "^1.0.0",
+    "brace-expansion": "^1.1.8",
+    "concat-map": "^0.0.1",
+    "glob": "^7.1.2",
+    "inherits": "^2.0.3",
+    "inflight": "^1.0.6",
+    "mkdirp": "^0.5.1",
+    "minimatch": "^3.0.4",
+    "path-is-absolute": "^1.0.1",
+    "once": "^1.4.0",
+    "shelljs": "^0.7.8",
+    "interpret": "^1.0.3",
+    "minimist": "^0.0.8",
+    "wrappy": "^1.0.2",
+    "resolve": "^1.4.0",
+    "rechoir": "^0.6.2",
+    "path-parse": "^1.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "1123978215@qq.com",
+  "license": "ISC"
+}
