@@ -7,6 +7,10 @@
   "bin": {
     "react-orcrist": "bin/react-orcrist-cli.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Ironsub/react-orcrist-generator.git"
+  },
   "dependencies": {
     "colors": "^1.1.2",
     "balanced-match": "^1.0.0",
