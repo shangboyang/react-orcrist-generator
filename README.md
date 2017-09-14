@@ -1,6 +1,6 @@
 [![npm](https://img.shields.io/npm/v/react-orcrist-generator.svg)](https://www.npmjs.com/package/react-orcrist-generator)
 [![Build Status](https://travis-ci.org/Ironsub/react-orcrist-generator.svg?branch=master)](https://travis-ci.org/Ironsub/react-orcrist-generator)
-[![npm](https://img.shields.io/npm/dw/react-orcrist-generator.svg)](https://www.npmjs.com/package/react-orcrist-generator)
+[![npm](https://img.shields.io/npm/dm/react-orcrist-generator.svg)](https://www.npmjs.com/package/react-orcrist-generator)
 
 # react-orcrist-generator
 
