@@ -8,7 +8,7 @@ A simple CLI for scaffolding React projects | react项目的简易脚手架生�
 
 ##### Installation
 
-Prerequisites: <font color='red'>Node.js</font> (>=4.x, 6.x preferred), npm version 3+ and <font color='red'>Git</font>.
+Prerequisites: <font color='red'>Node.js</font> (>=6.x preferred), npm version 3+ and <font color='red'>Git</font>.
 
 ``` bash
 $ npm install -g  react-orcrist-generator
