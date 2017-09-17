@@ -26,12 +26,12 @@ install:
 
 script:
   - react-orcrist --version
-  - if [[ $BUILD_TYPE == 'ONCE' ]]; then react-orcrist --init test; fi
-  - if [[ $BUILD_TYPE == 'ONCE' ]]; then cd test; fi
+  - if [[ $BUILD_TYPE == 'ONCE' ]]; then react-orcrist --init temp; fi
+  - if [[ $BUILD_TYPE == 'ONCE' ]]; then cd temp; fi
   - if [[ $BUILD_TYPE == 'ONCE' ]]; then npm install; fi
   - if [[ $BUILD_TYPE == 'ONCE' ]]; then npm run build; fi
-  - if [[ $BUILD_TYPE == 'CHAIN' ]]; then mkdir test; fi
-  - if [[ $BUILD_TYPE == 'CHAIN' ]]; then cd test; fi
+  - if [[ $BUILD_TYPE == 'CHAIN' ]]; then mkdir temp; fi
+  - if [[ $BUILD_TYPE == 'CHAIN' ]]; then cd temp; fi
   - if [[ $BUILD_TYPE == 'CHAIN' ]]; then react-orcrist --init; fi
   - if [[ $BUILD_TYPE == 'CHAIN' ]]; then npm install; fi
   - if [[ $BUILD_TYPE == 'CHAIN' ]]; then npm run build; fi
