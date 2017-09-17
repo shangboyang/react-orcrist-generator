@@ -8,16 +8,12 @@ matrix:
     node_js: 6.9.5
   - env: BUILD_TYPE=ONCE
     node_js: 6.0.0
-  - env: BUILD_TYPE=ONCE
-    node_js: 4.0.0
   - env: BUILD_TYPE=CHAIN
     node_js: 7.0.0
   - env: BUILD_TYPE=CHAIN
     node_js: 6.9.5
   - env: BUILD_TYPE=CHAIN
     node_js: 6.0.0
-  - env: BUILD_TYPE=CHAIN
-    node_js: 4.0.0
 
 before_install:
   - npm -g install npm@5.0.0
