@@ -1,0 +1,11 @@
+{
+  "name": "react-orcrist-generator",
+  "private": true,
+  "dependencies": {
+    "modernizr": "~2.8.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3"
+  }
+}
