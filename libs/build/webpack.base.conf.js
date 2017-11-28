@@ -83,7 +83,10 @@ module.exports = {
         test: /\.(svg)$/i,
         loader: 'svg-sprite',
         include: svgDirs,  // 把 svgDirs 路径下的所有 svg 文件交给 svg-sprite-loader 插件处理
-      },
+      },{
+        test: /\.json$/,
+        loader: 'json-loader'
+      }
     ]
   },
   // rucksackCss

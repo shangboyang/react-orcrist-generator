@@ -49,7 +49,7 @@ const _name = ROOT;
 const _app = '/app';
 const _build = '/build';
 
-emptyDirectory(ROOT, function (empty, path) {
+emptyDirectory(ROOT, function(empty, path) {
   if (empty) {
     createApp(ROOT);
   } else {
@@ -70,7 +70,7 @@ function commandIsEmpty() {
 
 function createApp(dest) {
   if (dest !== '.') {
-    mkdir(dest, function () {
+    mkdir(dest, function() {
       execute(dest);
     });
   } else {
@@ -87,7 +87,7 @@ function printCreateInfo(text) {
 }
 
 function mkdir(path, fn) {
-  mkdirp(path, function (err) {
+  mkdirp(path, function(err) {
     if (err) throw err;
     console.log('   \x1b[36mcreate\x1b[0m : ' + path);
     fn && fn();
@@ -99,7 +99,7 @@ function copy(from, to) {
 }
 
 function emptyDirectory(path, fn) {
-  fs.readdir(path, function (err, files) {
+  fs.readdir(path, function(err, files) {
     if (err && err.code !== 'ENOENT') throw err
     fn(!files || !files.length, path)
   })
@@ -140,7 +140,7 @@ function execute(dest) {
   printCreateInfo('Logo');
   printWithColor('Please wait away...', 'green');
 
-  setTimeout(function () {
+  setTimeout(function() {
     copy(path.join(__dirname, '..', 'vendor/3rd'), dest + '/app');
     printCreateInfo('Third core for Native');
   }, 1500);

@@ -11,7 +11,9 @@ var spinner = ora('building for production...')
 spinner.start()
 
 rm('-rf', 'dist')
+rm('-rf', 'zip')
 mkdir('dist')
+mkdir('zip')
 cp('-R', 'static', conf.output.path)
 
 webpack(conf, function (err, stats) {
