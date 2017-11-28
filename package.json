@@ -1,6 +1,6 @@
 {
   "name": "react-orcrist-generator",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "simple CLI for scaffolding React projects",
   "main": "",
   "preferGlobal": true,
